@@ -4,4 +4,5 @@ class people::takashiyoshida {
   class { "osx::firewall::stealth_mode": ensure => 'present' }
 
   class { "osx::dock::orientation": orientation => 'left' }
+  class { "osx::dock::magnification": ensure => 'present' }
 }
