@@ -55,3 +55,6 @@ github "xquartz",    "1.1.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "property_list_key", "0.1.0", :repo => "glarizza/puppet-property_list_key"
+github "osx", "1.2.3", :repo => "jfelchner/puppet-osx"
