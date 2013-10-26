@@ -57,5 +57,4 @@ github "xquartz",    "1.1.0"
 # https://github.com/boxen.
 
 github "property_list_key", "0.1.0", :repo => "glarizza/puppet-property_list_key"
-#github "osx", "1.2.3", :repo => "jfelchner/puppet-osx"
 github "osx", "2.1.1", :repo => "dieterdemeyer/puppet-osx"
