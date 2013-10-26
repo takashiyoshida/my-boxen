@@ -84,14 +84,14 @@ GITHUBTARBALL
     xquartz (1.1.0)
 
 GITHUBTARBALL
+  remote: dieterdemeyer/puppet-osx
+  specs:
+    osx (2.1.1)
+
+GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
   specs:
     property_list_key (0.1.0)
-
-GITHUBTARBALL
-  remote: jfelchner/puppet-osx
-  specs:
-    osx (1.2.3)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -116,7 +116,7 @@ DEPENDENCIES
   nginx (= 1.4.2)
   nodejs (= 3.4.1)
   openssl (= 1.0.0)
-  osx (= 1.2.3)
+  osx (= 2.1.1)
   phantomjs (= 2.0.2)
   pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
