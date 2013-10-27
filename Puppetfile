@@ -61,3 +61,4 @@ github "osx", "2.1.1", :repo => "dieterdemeyer/puppet-osx"
 
 github "bbedit", "1.0.2"
 github "dropbox", "1.1.2", :repo => "amdtech/puppet-dropbox"
+github "fastscripts", "1.0.0", :repo => "takashiyoshida/puppet-fastscripts"

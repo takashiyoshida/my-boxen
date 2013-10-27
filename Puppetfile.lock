@@ -113,11 +113,17 @@ GITHUBTARBALL
   specs:
     stdlib (4.1.0)
 
+GITHUBTARBALL
+  remote: takashiyoshida/puppet-fastscripts
+  specs:
+    fastscripts (1.0.0)
+
 DEPENDENCIES
   bbedit (= 1.0.2)
   boxen (= 3.0.4)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.2)
+  fastscripts (= 1.0.0)
   foreman (= 1.0.0)
   gcc (= 2.0.1)
   git (= 1.3.2)

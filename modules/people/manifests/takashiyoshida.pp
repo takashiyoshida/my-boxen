@@ -30,4 +30,5 @@ class people::takashiyoshida {
 
   include bbedit
   include dropbox
+  include fastscripts
 }
