@@ -10,4 +10,8 @@ class people::takashiyoshida {
   class { "osx::finder::status_bar": ensure => 'present' }
   class { "osx::finder::quicklook_text_selection": ensure => 'present' }
 
+  class { "osx::finder::file_extensions":
+    display_all => false,
+    warn_on_change => true,
+  }
 }
