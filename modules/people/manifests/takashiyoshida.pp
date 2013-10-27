@@ -29,4 +29,5 @@ class people::takashiyoshida {
   class { "osx::windows::miniaturize_on_double_click": ensure => 'present' }
 
   include bbedit
+  include dropbox
 }
