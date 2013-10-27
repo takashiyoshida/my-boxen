@@ -16,4 +16,9 @@ class people::takashiyoshida {
   }
 
   class { "osx::finder::default_location": location => 'home directory' }
+
+  # System
+  class { "osx::system::crash_reporter": ensure => 'present' }
+  class { "osx::universal_access::assistive_device_access": ensure => 'present' }
+  class { "osx::windows::miniaturize_on_double_click": ensure => 'present' }
 }
