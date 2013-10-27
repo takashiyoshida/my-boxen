@@ -32,4 +32,5 @@ class people::takashiyoshida {
   include dropbox
   include fastscripts
   include chrome
+  include launchbar
 }

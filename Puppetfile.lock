@@ -123,6 +123,11 @@ GITHUBTARBALL
   specs:
     fastscripts (1.0.0)
 
+GITHUBTARBALL
+  remote: takashiyoshida/puppet-launchbar
+  specs:
+    launchbar (1.0.2)
+
 DEPENDENCIES
   bbedit (= 1.0.2)
   boxen (= 3.0.4)
@@ -137,6 +142,7 @@ DEPENDENCIES
   homebrew (= 1.4.1)
   hub (= 1.1.0)
   inifile (= 1.0.0)
+  launchbar (= 1.0.2)
   nginx (= 1.4.2)
   nodejs (= 3.4.1)
   openssl (= 1.0.0)
