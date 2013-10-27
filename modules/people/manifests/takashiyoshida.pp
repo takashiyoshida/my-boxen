@@ -27,4 +27,6 @@ class people::takashiyoshida {
 
   class { "osx::universal_access::assistive_device_access": ensure => 'present' }
   class { "osx::windows::miniaturize_on_double_click": ensure => 'present' }
+
+  include bbedit
 }

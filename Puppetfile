@@ -58,3 +58,5 @@ github "xquartz",    "1.1.0"
 
 github "property_list_key", "0.1.0", :repo => "glarizza/puppet-property_list_key"
 github "osx", "2.1.1", :repo => "dieterdemeyer/puppet-osx"
+
+github "bbedit", "1.0.2"
