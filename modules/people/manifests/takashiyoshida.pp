@@ -14,4 +14,6 @@ class people::takashiyoshida {
     display_all => false,
     warn_on_change => true,
   }
+
+  class { "osx::finder::default_location": location => 'home directory' }
 }
