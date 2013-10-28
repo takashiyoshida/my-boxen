@@ -16,6 +16,9 @@ class people::takashiyoshida::repositories {
   $dotfiles = "${projects}/dotfiles"
   $oh_my_zsh = "${projects}/oh-my-zsh"
 
+  $solarized = "${projects}/solarized"
+  $term_solarized = "${projects}/osx-terminal.app-colors-solarized"
+
   repository { $applescript:
     source => 'takashiyoshida/applescript',
     require => File[$projects],
@@ -28,6 +31,16 @@ class people::takashiyoshida::repositories {
 
   repository { $oh_my_zsh:
     source => 'takashiyoshida/oh-my-zsh',
+    require => File[$projects],
+  }
+
+  repository { $solarized:
+    source => 'altercation/solarized',
+    require => File[$projects],
+  }
+
+  repository { $term_solarized:
+    source => 'tomislav/osx-terminal.app-colors-solarized',
     require => File[$projects],
   }
 }
