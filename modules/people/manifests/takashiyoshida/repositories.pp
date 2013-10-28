@@ -6,4 +6,9 @@ class people::takashiyoshida::repositories {
     ensure => 'directory',
     mode => 700,
   }
+
+  exec { "chmod +a 'everyone deny delete' ${projects}":
+    cwd => $home,
+    require => File[$projects],
+  }
 }
