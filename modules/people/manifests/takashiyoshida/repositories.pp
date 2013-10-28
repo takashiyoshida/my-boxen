@@ -20,6 +20,13 @@ class people::takashiyoshida::repositories {
   $ql_markdown = "${projects}/qlmarkdown"
   $prelude = "${projects}/prelude"
 
+  $puppet_dropbox = "${projects}/puppet-dropbox"
+  $puppet_fastscripts = "${projects}/puppet-fastscripts"
+  $puppet_launchbar = "${projects}/puppet-launchbar"
+  $puppet_spamsieve = "${projects}/puppet-spamsieve"
+  $puppet_transmit = "${projects}/puppet-transmit"
+  $puppet_undercover = "${projects}/puppet-undercover"
+
   repository { $applescript:
     source => 'takashiyoshida/applescript',
     require => File[$projects],
@@ -52,6 +59,36 @@ class people::takashiyoshida::repositories {
 
   repository { $prelude:
     source => 'bbatsov/prelude',
+    require => File[$projects],
+  }
+
+  repository { $puppet_dropbox:
+    source => 'takashiyoshida/puppet-dropbox',
+    require => File[$projects],
+  }
+
+  repository { $puppet_fastscripts:
+    source => 'takashiyoshida/puppet-fastscripts',
+    require => File[$projects],
+  }
+
+  repository { $puppet_launchbar:
+    source => 'takashiyoshida/puppet-launchbar',
+    require => File[$projects],
+  }
+
+  repository { $puppet_spamsieve:
+    source => 'takashiyoshida/puppet-spamsieve',
+    require => File[$projects],
+  }
+
+  repository { $puppet_transmit:
+    source => 'takashiyoshida/puppet-transmit',
+    require => File[$projects],
+  }
+
+  repository { $puppet_undercover:
+    source => 'takashiyoshida/puppet-undercover',
     require => File[$projects],
   }
 }
