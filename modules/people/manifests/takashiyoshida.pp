@@ -36,5 +36,6 @@ class people::takashiyoshida {
   include spamsieve
   include transmission
   include transmit
+  include undercover
   include vlc
 }
