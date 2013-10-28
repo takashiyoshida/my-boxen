@@ -1,17 +1,6 @@
 class people::takashiyoshida {
   include people::takashiyoshida::osx_settings
-
-  # Applications
-  include bbedit
-  include dropbox
-  include fastscripts
-  include chrome
-  include launchbar
-  include spamsieve
-  include transmission
-  include transmit
-  include undercover
-  include vlc
+  include people::takashiyoshida::applications
 
   # Homebrew
   homebrew::tap { "homebrew/binary": }
