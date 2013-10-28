@@ -28,6 +28,7 @@ class people::takashiyoshida {
   class { "osx::universal_access::assistive_device_access": ensure => 'present' }
   class { "osx::windows::miniaturize_on_double_click": ensure => 'present' }
 
+  # Applications
   include bbedit
   include dropbox
   include fastscripts
@@ -38,4 +39,34 @@ class people::takashiyoshida {
   include transmit
   include undercover
   include vlc
+
+  # Homebrew
+  homebrew::tap { "homebrew/binary": }
+
+  package {
+    "emacs": ;
+    "ffmpeg": ;
+    "mercurial": ;
+    "p7zip": ;
+    "the_silver_searcher": ;
+    "spark": ;
+    "tig": ;
+    "tmux": ;
+    "unrar": ;
+    "vim": ;
+    "youtube-dl": ;
+    "zsh":
+      install_options => [ "--disable-etcdir" ]
+  }
+
+  file_line { 'Add zsh to /etc/shells':
+    path => '/etc/shells',
+    line => "${boxen::config::homebrewdir}/bin/zsh",
+    require => Package['zsh'],
+  }
+
+  osx_chsh { $::luser:
+    shell => "${boxen::config::homebrewdir}/bin/zsh",
+    require => Package['zsh'],
+  }
 }
