@@ -119,6 +119,11 @@ GITHUBTARBALL
     stdlib (4.1.0)
 
 GITHUBTARBALL
+  remote: singuerinc/puppet-transmission
+  specs:
+    transmission (1.0.2)
+
+GITHUBTARBALL
   remote: takashiyoshida/puppet-fastscripts
   specs:
     fastscripts (1.0.0)
@@ -127,6 +132,11 @@ GITHUBTARBALL
   remote: takashiyoshida/puppet-launchbar
   specs:
     launchbar (1.0.2)
+
+GITHUBTARBALL
+  remote: takashiyoshida/puppet-spamsieve
+  specs:
+    spamsieve (1.0.2)
 
 DEPENDENCIES
   bbedit (= 1.0.2)
@@ -152,7 +162,9 @@ DEPENDENCIES
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
   ruby (= 6.5.0)
+  spamsieve (= 1.0.2)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  transmission (= 1.0.2)
   xquartz (= 1.1.0)
 

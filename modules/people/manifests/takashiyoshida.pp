@@ -33,4 +33,6 @@ class people::takashiyoshida {
   include fastscripts
   include chrome
   include launchbar
+  include spamsieve
+  include transmission
 }
