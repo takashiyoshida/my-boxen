@@ -138,6 +138,11 @@ GITHUBTARBALL
   specs:
     spamsieve (1.0.2)
 
+GITHUBTARBALL
+  remote: takashiyoshida/puppet-transmit
+  specs:
+    transmit (1.0.2)
+
 DEPENDENCIES
   bbedit (= 1.0.2)
   boxen (= 3.0.4)
@@ -166,5 +171,6 @@ DEPENDENCIES
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   transmission (= 1.0.2)
+  transmit (= 1.0.2)
   xquartz (= 1.1.0)
 

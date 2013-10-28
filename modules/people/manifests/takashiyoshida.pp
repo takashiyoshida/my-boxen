@@ -35,4 +35,5 @@ class people::takashiyoshida {
   include launchbar
   include spamsieve
   include transmission
+  include transmit
 }
