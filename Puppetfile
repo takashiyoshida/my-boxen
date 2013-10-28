@@ -60,7 +60,7 @@ github "property_list_key", "0.1.0", :repo => "glarizza/puppet-property_list_key
 github "osx", "2.1.1", :repo => "dieterdemeyer/puppet-osx"
 
 github "bbedit", "1.0.2"
-github "dropbox", "1.1.2", :repo => "amdtech/puppet-dropbox"
+github "dropbox", "1.1.3", :repo => "takashiyoshida/puppet-dropbox"
 github "fastscripts", "1.0.0", :repo => "takashiyoshida/puppet-fastscripts"
 github "chrome", "1.1.1"
 github "launchbar", "1.0.2", :repo => "takashiyoshida/puppet-launchbar"
