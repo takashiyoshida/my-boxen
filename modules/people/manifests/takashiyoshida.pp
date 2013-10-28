@@ -69,4 +69,6 @@ class people::takashiyoshida {
     shell => "${boxen::config::homebrewdir}/bin/zsh",
     require => Package['zsh'],
   }
+
+  include people::takashiyoshida::repositories
 }
