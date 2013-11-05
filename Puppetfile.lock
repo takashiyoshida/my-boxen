@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.0.4)
+    boxen (3.3.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -41,7 +41,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.4.1)
+    homebrew (1.5.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.5.0)
+    ruby (6.7.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -155,7 +155,7 @@ GITHUBTARBALL
 
 DEPENDENCIES
   bbedit (= 1.0.2)
-  boxen (= 3.0.4)
+  boxen (= 3.3.4)
   chrome (= 1.1.1)
   dnsmasq (= 1.0.0)
   dropbox (= 1.1.3)
@@ -164,7 +164,7 @@ DEPENDENCIES
   gcc (= 2.0.1)
   git (= 1.3.3)
   go (= 1.0.1)
-  homebrew (= 1.4.1)
+  homebrew (= 1.5.1)
   hub (= 1.1.0)
   inifile (= 1.0.0)
   launchbar (= 1.0.2)
@@ -176,7 +176,7 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
-  ruby (= 6.5.0)
+  ruby (= 6.7.2)
   spamsieve (= 1.0.2)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
