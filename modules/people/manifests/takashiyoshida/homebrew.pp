@@ -1,7 +1,4 @@
 class people::takashiyoshida::homebrew {
-    # Homebrew
-  homebrew::tap { "homebrew/binary": }
-
   package {
     "emacs": ;
     "ffmpeg": ;
