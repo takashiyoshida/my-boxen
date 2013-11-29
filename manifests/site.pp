@@ -64,11 +64,8 @@ node default {
   }
 
   # node versions
-  # INFO: I don't need so many nodejs; I'll keep the latest one for now
-  # In particular, nodejs::v0_4 seems to have build problems on OS X 10.9
-  #include nodejs::v0_4
-  #include nodejs::v0_6
-  #include nodejs::v0_8
+  include nodejs::v0_6
+  include nodejs::v0_8
   include nodejs::v0_10
 
   # default ruby versions
