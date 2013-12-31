@@ -81,7 +81,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.8.0)
+    ruby (6.9.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -136,12 +136,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: takashiyoshida/puppet-launchbar
   specs:
-    launchbar (1.0.2)
+    launchbar (1.0.3)
 
 GITHUBTARBALL
   remote: takashiyoshida/puppet-spamsieve
   specs:
-    spamsieve (1.0.2)
+    spamsieve (1.0.5)
 
 GITHUBTARBALL
   remote: takashiyoshida/puppet-transmit
@@ -167,7 +167,7 @@ DEPENDENCIES
   homebrew (= 1.6.0)
   hub (= 1.2.0)
   inifile (= 1.0.0)
-  launchbar (= 1.0.2)
+  launchbar (= 1.0.3)
   nginx (= 1.4.3)
   nodejs (= 3.5.0)
   openssl (= 1.0.0)
@@ -176,8 +176,8 @@ DEPENDENCIES
   pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
   repository (= 2.2.0)
-  ruby (= 6.8.0)
-  spamsieve (= 1.0.2)
+  ruby (= 6.9.0)
+  spamsieve (= 1.0.5)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
   transmission (= 1.0.2)
