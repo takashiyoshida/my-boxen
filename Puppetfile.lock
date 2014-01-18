@@ -126,7 +126,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: takashiyoshida/puppet-dropbox
   specs:
-    dropbox (1.2.0)
+    dropbox (1.2.1)
 
 GITHUBTARBALL
   remote: takashiyoshida/puppet-fastscripts
@@ -158,7 +158,7 @@ DEPENDENCIES
   boxen (= 3.3.5)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
-  dropbox (= 1.2.0)
+  dropbox (= 1.2.1)
   fastscripts (= 1.0.0)
   foreman (= 1.1.0)
   gcc (= 2.0.1)
