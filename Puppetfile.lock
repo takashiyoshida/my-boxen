@@ -151,7 +151,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: takashiyoshida/puppet-undercover
   specs:
-    undercover (1.0.2)
+    undercover (1.0.3)
 
 DEPENDENCIES
   bbedit (= 1.0.2)
@@ -182,7 +182,7 @@ DEPENDENCIES
   sudo (= 1.0.0)
   transmission (= 1.0.2)
   transmit (= 1.0.2)
-  undercover (= 1.0.2)
+  undercover (= 1.0.3)
   vlc (= 1.0.5)
   xquartz (= 1.1.1)
 
