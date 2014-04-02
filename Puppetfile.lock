@@ -6,7 +6,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
-    boxen (3.3.5)
+    boxen (3.4.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-chrome
@@ -21,32 +21,32 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
-    foreman (1.1.0)
+    foreman (1.2.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.0.1)
+    gcc (2.0.100)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (1.3.7)
+    git (2.2.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
-    go (2.0.1)
+    go (1.1.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.6.0)
+    homebrew (1.6.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
-    hub (1.2.0)
+    hub (1.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -56,7 +56,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
   specs:
-    nodejs (3.5.0)
+    nodejs (3.7.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-openssl
@@ -76,12 +76,12 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-repository
   specs:
-    repository (2.2.0)
+    repository (2.3.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-ruby
   specs:
-    ruby (6.9.0)
+    ruby (7.2.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-sudo
@@ -111,12 +111,17 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
-    inifile (1.0.0)
+    inifile (1.0.3)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-stdlib
   specs:
     stdlib (4.1.0)
+
+GITHUBTARBALL
+  remote: ripienaar/puppet-module-data
+  specs:
+    module-data (0.0.3)
 
 GITHUBTARBALL
   remote: singuerinc/puppet-transmission
@@ -155,28 +160,29 @@ GITHUBTARBALL
 
 DEPENDENCIES
   bbedit (= 1.0.2)
-  boxen (= 3.3.5)
+  boxen (= 3.4.2)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
   dropbox (= 1.2.0)
   fastscripts (= 1.0.0)
-  foreman (= 1.1.0)
-  gcc (= 2.0.1)
-  git (= 1.3.7)
-  go (= 2.0.1)
-  homebrew (= 1.6.0)
-  hub (= 1.2.0)
-  inifile (= 1.0.0)
+  foreman (= 1.2.0)
+  gcc (= 2.0.100)
+  git (= 2.2.2)
+  go (= 1.1.0)
+  homebrew (= 1.6.1)
+  hub (= 1.3.0)
+  inifile (= 1.0.3)
   launchbar (= 1.0.3)
+  module-data (= 0.0.3)
   nginx (= 1.4.3)
-  nodejs (= 3.5.0)
+  nodejs (= 3.7.0)
   openssl (= 1.0.0)
   osx (= 2.2.0)
   phantomjs (= 2.1.0)
   pkgconfig (= 1.0.0)
   property_list_key (= 0.1.0)
-  repository (= 2.2.0)
-  ruby (= 6.9.0)
+  repository (= 2.3.0)
+  ruby (= 7.2.4)
   spamsieve (= 1.0.5)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
@@ -185,4 +191,3 @@ DEPENDENCIES
   undercover (= 1.0.3)
   vlc (= 1.0.5)
   xquartz (= 1.1.1)
-
