@@ -1,9 +1,4 @@
 GITHUBTARBALL
-  remote: boxen/puppet-bbedit
-  specs:
-    bbedit (1.0.2)
-
-GITHUBTARBALL
   remote: boxen/puppet-boxen
   specs:
     boxen (3.4.2)
@@ -129,9 +124,14 @@ GITHUBTARBALL
     transmission (1.0.2)
 
 GITHUBTARBALL
+  remote: takashiyoshida/puppet-bbedit
+  specs:
+    bbedit (1.0.3)
+
+GITHUBTARBALL
   remote: takashiyoshida/puppet-dropbox
   specs:
-    dropbox (1.2.0)
+    dropbox (1.2.1)
 
 GITHUBTARBALL
   remote: takashiyoshida/puppet-fastscripts
@@ -159,11 +159,11 @@ GITHUBTARBALL
     undercover (1.0.3)
 
 DEPENDENCIES
-  bbedit (= 1.0.2)
+  bbedit (= 1.0.3)
   boxen (= 3.4.2)
   chrome (= 1.1.2)
   dnsmasq (= 1.0.1)
-  dropbox (= 1.2.0)
+  dropbox (= 1.2.1)
   fastscripts (= 1.0.0)
   foreman (= 1.2.0)
   gcc (= 2.0.100)
