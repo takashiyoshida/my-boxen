@@ -1,6 +1,7 @@
 class people::takashiyoshida::applications {
   # Applications
   include bbedit
+  include datarescue
   include dropbox
   include fastscripts
   include chrome
