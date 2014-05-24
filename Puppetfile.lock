@@ -154,6 +154,11 @@ GITHUBTARBALL
     spamsieve (1.0.7)
 
 GITHUBTARBALL
+  remote: takashiyoshida/puppet-superduper
+  specs:
+    superduper (1.0.1)
+
+GITHUBTARBALL
   remote: takashiyoshida/puppet-transmit
   specs:
     transmit (1.0.4)
@@ -192,6 +197,7 @@ DEPENDENCIES
   spamsieve (= 1.0.7)
   stdlib (= 4.1.0)
   sudo (= 1.0.0)
+  superduper (= 1.0.1)
   transmission (= 1.0.2)
   transmit (= 1.0.4)
   undercover (= 1.0.4)

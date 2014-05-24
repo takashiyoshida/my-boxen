@@ -7,6 +7,7 @@ class people::takashiyoshida::applications {
   include chrome
   include launchbar
   include spamsieve
+  include superduper
   include transmission
   include transmit
   include undercover
