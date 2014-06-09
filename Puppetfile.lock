@@ -106,7 +106,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
   specs:
-    property_list_key (0.1.0)
+    property_list_key (0.2.1)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -177,7 +177,6 @@ DEPENDENCIES
   dropbox (= 1.2.2)
   fastscripts (= 1.0.2)
   foreman (= 1.2.0)
-<<<<<<< HEAD
   gcc (= 2.0.1)
   git (= 2.4.0)
   go (= 2.0.1)
@@ -192,7 +191,7 @@ DEPENDENCIES
   osx (= 2.2.0)
   phantomjs (= 2.3.0)
   pkgconfig (= 1.0.0)
-  property_list_key (= 0.1.0)
+  property_list_key (= 0.2.1)
   repository (= 2.3.0)
   ruby (= 8.0.4)
   spamsieve (= 1.0.7)
@@ -204,3 +203,4 @@ DEPENDENCIES
   undercover (= 1.0.4)
   vlc (= 1.1.0)
   xquartz (= 1.1.1)
+
