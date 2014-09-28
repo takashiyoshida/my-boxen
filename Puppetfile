@@ -65,7 +65,7 @@ github "osx", "2.2.0", :repo => "dieterdemeyer/puppet-osx"
 
 github "bbedit", "1.0.4", :repo => "takashiyoshida/puppet-bbedit"
 github "datarescue", "1.0.1", :repo => "takashiyoshida/puppet-datarescue"
-github "dropbox", "1.2.2", :repo => "takashiyoshida/puppet-dropbox"
+github "dropbox", "1.2.3", :repo => "takashiyoshida/puppet-dropbox"
 github "fastscripts", "1.0.2", :repo => "takashiyoshida/puppet-fastscripts"
 github "chrome", "1.2.0"
 github "launchbar", "1.1.1", :repo => "takashiyoshida/puppet-launchbar"
