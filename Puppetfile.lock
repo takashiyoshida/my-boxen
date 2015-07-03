@@ -9,11 +9,6 @@ GITHUBTARBALL
     brewcask (0.0.6)
 
 GITHUBTARBALL
-  remote: boxen/puppet-chrome
-  specs:
-    chrome (1.2.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-dnsmasq
   specs:
     dnsmasq (2.0.1)
@@ -26,7 +21,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-gcc
   specs:
-    gcc (2.2.1)
+    gcc (3.0.2)
 
 GITHUBTARBALL
   remote: boxen/puppet-git
@@ -41,7 +36,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-homebrew
   specs:
-    homebrew (1.12.0)
+    homebrew (1.13.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-hub
@@ -51,7 +46,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-nginx
   specs:
-    nginx (1.4.5)
+    nginx (1.4.6)
 
 GITHUBTARBALL
   remote: boxen/puppet-nodejs
@@ -64,9 +59,14 @@ GITHUBTARBALL
     openssl (1.0.0)
 
 GITHUBTARBALL
+  remote: boxen/puppet-osx
+  specs:
+    osx (2.8.0)
+
+GITHUBTARBALL
   remote: boxen/puppet-phantomjs
   specs:
-    phantomjs (2.4.0)
+    phantomjs (3.0.0)
 
 GITHUBTARBALL
   remote: boxen/puppet-pkgconfig
@@ -89,19 +89,9 @@ GITHUBTARBALL
     sudo (1.0.0)
 
 GITHUBTARBALL
-  remote: boxen/puppet-vlc
-  specs:
-    vlc (1.1.0)
-
-GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
-
-GITHUBTARBALL
-  remote: dieterdemeyer/puppet-osx
-  specs:
-    osx (2.2.0)
 
 GITHUBTARBALL
   remote: glarizza/puppet-property_list_key
@@ -123,89 +113,28 @@ GITHUBTARBALL
   specs:
     module_data (0.0.3)
 
-GITHUBTARBALL
-  remote: singuerinc/puppet-transmission
-  specs:
-    transmission (1.0.2)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-bbedit
-  specs:
-    bbedit (1.0.4)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-datarescue
-  specs:
-    datarescue (1.0.1)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-dropbox
-  specs:
-    dropbox (1.2.3)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-fastscripts
-  specs:
-    fastscripts (1.0.2)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-launchbar
-  specs:
-    launchbar (1.1.1)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-spamsieve
-  specs:
-    spamsieve (1.0.7)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-superduper
-  specs:
-    superduper (1.0.1)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-transmit
-  specs:
-    transmit (1.0.4)
-
-GITHUBTARBALL
-  remote: takashiyoshida/puppet-undercover
-  specs:
-    undercover (1.0.4)
-
 DEPENDENCIES
-  bbedit (= 1.0.4)
   boxen (= 3.10.4)
   brewcask (= 0.0.6)
-  chrome (= 1.2.0)
-  datarescue (= 1.0.1)
   dnsmasq (= 2.0.1)
-  dropbox (= 1.2.3)
-  fastscripts (= 1.0.2)
   foreman (= 1.2.0)
-  gcc (= 2.2.1)
+  gcc (= 3.0.2)
   git (= 2.7.9)
   go (= 2.1.0)
-  homebrew (= 1.12.0)
+  homebrew (= 1.13.0)
   hub (= 1.4.1)
   inifile (= 1.1.1)
-  launchbar (= 1.1.1)
   module_data (= 0.0.3)
-  nginx (= 1.4.5)
+  nginx (= 1.4.6)
   nodejs (= 4.0.1)
   openssl (= 1.0.0)
-  osx (= 2.2.0)
-  phantomjs (= 2.4.0)
+  osx (= 2.8.0)
+  phantomjs (= 3.0.0)
   pkgconfig (= 1.0.0)
   property_list_key (= 0.2.1)
   repository (= 2.4.1)
   ruby (= 8.5.2)
-  spamsieve (= 1.0.7)
   stdlib (= 4.2.1)
   sudo (= 1.0.0)
-  superduper (= 1.0.1)
-  transmission (= 1.0.2)
-  transmit (= 1.0.4)
-  undercover (= 1.0.4)
-  vlc (= 1.1.0)
   xquartz (= 1.2.1)
+

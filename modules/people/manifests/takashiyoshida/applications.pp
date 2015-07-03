@@ -87,10 +87,10 @@ class people::takashiyoshida::applications {
     install_options => '--appdir=/Applications',
   }
 
-  package { 'tower':
-    provider => 'brewcask',
-    install_options => '--appdir=/Applications',
-  }
+#  package { 'tower':
+#    provider => 'brewcask',
+#    install_options => '--appdir=/Applications',
+#  }
 
   package { 'transmission':
     provider => 'brewcask',
@@ -107,9 +107,9 @@ class people::takashiyoshida::applications {
     install_options => '--appdir=/Applications',
   }
 
-  package { 'vmware-fusion':
-    provider => 'brewcask',
-    install_options => '--appdir=/Applications',
-  }
+#  package { 'vmware-fusion':
+#    provider => 'brewcask',
+#    install_options => '--appdir=/Applications',
+#  }
 
 }
