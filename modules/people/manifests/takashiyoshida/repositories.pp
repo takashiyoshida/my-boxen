@@ -13,24 +13,24 @@ class people::takashiyoshida::repositories {
   }
 
   $applescript        = "${projects}/applescript"
+  $c755a_loggr        = "${projects}/c755a-loggr"
   $dotfiles           = "${projects}/dotfiles"
   $oh_my_zsh          = "${projects}/oh-my-zsh"
   $solarized          = "${projects}/solarized"
   $term_solarized     = "${projects}/osx-terminal.app-colors-solarized"
   $ql_markdown        = "${projects}/qlmarkdown"
   $prelude            = "${projects}/prelude"
-
-  $puppet_dropbox     = "${projects}/puppet-dropbox"
-  $puppet_fastscripts = "${projects}/puppet-fastscripts"
-  $puppet_launchbar   = "${projects}/puppet-launchbar"
-  $puppet_spamsieve   = "${projects}/puppet-spamsieve"
-  $puppet_transmit    = "${projects}/puppet-transmit"
-  $puppet_undercover  = "${projects}/puppet-undercover"
+  $vergil             = "${projects}/vergil"
 
   $osx_vm_templates   = "${projects}/osx-vm-templates"
 
   repository { $applescript:
     source  => 'takashiyoshida/applescript',
+    require => File[$projects],
+  }
+
+  repository { $c755a_loggr:
+    source  => 'takashiyoshida/c755a-loggr',
     require => File[$projects],
   }
 
@@ -64,33 +64,8 @@ class people::takashiyoshida::repositories {
     require => File[$projects],
   }
 
-  repository { $puppet_dropbox:
-    source  => 'takashiyoshida/puppet-dropbox',
-    require => File[$projects],
-  }
-
-  repository { $puppet_fastscripts:
-    source  => 'takashiyoshida/puppet-fastscripts',
-    require => File[$projects],
-  }
-
-  repository { $puppet_launchbar:
-    source  => 'takashiyoshida/puppet-launchbar',
-    require => File[$projects],
-  }
-
-  repository { $puppet_spamsieve:
-    source => 'takashiyoshida/puppet-spamsieve',
-    require => File[$projects],
-  }
-
-  repository { $puppet_transmit:
-    source => 'takashiyoshida/puppet-transmit',
-    require => File[$projects],
-  }
-
-  repository { $puppet_undercover:
-    source => 'takashiyoshida/puppet-undercover',
+  repository { $vergil:
+    source  => 'takashiyoshida/vergil',
     require => File[$projects],
   }
 
