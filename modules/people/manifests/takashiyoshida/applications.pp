@@ -2,10 +2,10 @@ class people::takashiyoshida::applications {
   # Applications  
   include brewcask
   
-  package { 'adobe-creative-cloud':
-    provider => 'brewcask',
-    install_options => '--appdir=/Applications',
-  }
+#  package { 'adobe-creative-cloud':
+#    provider => 'brewcask',
+#    install_options => '--appdir=/Applications',
+#  }
 
   package { 'arduino':
     provider => 'brewcask',
