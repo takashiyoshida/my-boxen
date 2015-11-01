@@ -3,9 +3,10 @@ class people::takashiyoshida::homebrew {
     "emacs": ;
     "ffmpeg": ;
     "mercurial": ;
+    "pandoc": ;
+    "pyenv": ;
     "p7zip": ;
     "the_silver_searcher": ;
-    "spark": ;
     "tig": ;
     "tmux": ;
     "unrar": ;
