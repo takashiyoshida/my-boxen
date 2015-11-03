@@ -26,7 +26,7 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-git
   specs:
-    git (2.7.92)
+    git (2.7.11)
 
 GITHUBTARBALL
   remote: boxen/puppet-go
@@ -119,7 +119,7 @@ DEPENDENCIES
   dnsmasq (= 2.0.1)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
-  git (= 2.7.92)
+  git (= 2.7.11)
   go (= 2.1.0)
   homebrew (= 2.0.0)
   hub (= 1.4.1)
@@ -137,3 +137,4 @@ DEPENDENCIES
   stdlib (= 4.9.0)
   sudo (= 1.0.0)
   xquartz (= 1.2.1)
+
