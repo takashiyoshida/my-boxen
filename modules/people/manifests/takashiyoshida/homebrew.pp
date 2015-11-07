@@ -3,14 +3,19 @@ class people::takashiyoshida::homebrew {
     "emacs": ;
     "ffmpeg": ;
     "mercurial": ;
+    "packer": ;
     "pandoc": ;
     "pyenv": ;
     "p7zip": ;
+    "reattach-to-user-namespace": ;
     "the_silver_searcher": ;
+    "streamripper": ;
     "tig": ;
     "tmux": ;
+    "tree": ;
     "unrar": ;
     "vim": ;
+    "wget": ;
     "youtube-dl": ;
     "zsh":
       install_options => [ "--disable-etcdir" ]
