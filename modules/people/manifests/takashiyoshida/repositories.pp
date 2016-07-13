@@ -60,7 +60,7 @@ class people::takashiyoshida::repositories {
   }
 
   repository { $prelude:
-    source  => 'bbatsov/prelude',
+    source  => 'takashiyoshida/prelude',
     require => File[$projects],
   }
 

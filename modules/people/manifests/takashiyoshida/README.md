@@ -34,15 +34,6 @@ vagrant plugin license vagrant-vmware-fusion license.lic
 
 ## Homebrew
 
-### Install Miscellaneous
-
-```bash
-brew install packer
-brew install streamripper
-brew install tree
-brew install wget
-```
-
 ### Install brew cask
 
 ```bash

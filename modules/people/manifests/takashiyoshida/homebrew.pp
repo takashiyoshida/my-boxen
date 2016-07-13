@@ -10,6 +10,7 @@ class people::takashiyoshida::homebrew {
     "reattach-to-user-namespace": ;
     "the_silver_searcher": ;
     "streamripper": ;
+    "svn": ;
     "tig": ;
     "tmux": ;
     "tree": ;
