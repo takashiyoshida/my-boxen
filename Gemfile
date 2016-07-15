@@ -12,7 +12,7 @@ gem "rspec-puppet",           "1.0.1"
 gem "deep_merge",             "~> 1.0"
 
 # As recommended/needed by puppet-property_list_key (glarizza)
-gem "CFPropertyList",         ">= 2.2.6"
+#gem "CFPropertyList",         ">= 2.2.6"
 
 group :development do
   gem "aws-sdk-core", "~> 2.0.11"

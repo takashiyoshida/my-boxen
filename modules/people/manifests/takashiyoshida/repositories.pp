@@ -20,7 +20,6 @@ class people::takashiyoshida::repositories {
   $term_solarized     = "${projects}/osx-terminal.app-colors-solarized"
   $ql_markdown        = "${projects}/qlmarkdown"
   $prelude            = "${projects}/prelude"
-  $vergil             = "${projects}/vergil"
 
   $osx_vm_templates   = "${projects}/osx-vm-templates"
 
@@ -61,11 +60,6 @@ class people::takashiyoshida::repositories {
 
   repository { $prelude:
     source  => 'takashiyoshida/prelude',
-    require => File[$projects],
-  }
-
-  repository { $vergil:
-    source  => 'takashiyoshida/vergil',
     require => File[$projects],
   }
 
