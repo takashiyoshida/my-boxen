@@ -33,29 +33,32 @@ github "boxen", "3.11.1"
 
 # Support for default hiera data in modules
 
+# This is no longer maintained and will not work in Puppet 4.
+# I'm not sure what this means for Boxen in general though.
 github "module_data", "0.0.4", :repo => "ripienaar/puppet-module-data"
 
 # Core modules for a basic development environment. You can replace
 # some/most of these if you want, but it's not recommended.
 
-github "brewcask",    "0.0.6"
+# brew-cask will no longer be installed separately. It is now part of Homebrew.
+github "brewcask",    "0.0.7"
 github "dnsmasq",     "2.0.1"
 github "foreman",     "1.2.0"
 github "gcc",         "3.0.2"
 github "git",         "2.9.0"
 github "go",          "2.1.0"
 github "homebrew",    "2.0.2"
-github "hub",         "1.4.1"
-github "inifile",     "1.4.2", :repo => "puppetlabs/puppetlabs-inifile"
+github "hub",         "1.4.2"
+github "inifile",     "1.5.0", :repo => "puppetlabs/puppetlabs-inifile"
 github "nginx",       "1.7.0"
-github "nodejs",      "5.0.5"
+github "nodejs",      "5.0.7"
 github "openssl",     "1.0.0"
 github "osx",         "2.8.0"
 github "phantomjs",   "3.0.0"
 github "pkgconfig",   "1.0.0"
 github "repository",  "2.4.1"
-github "ruby",        "8.5.4"
-github "stdlib",      "4.9.0", :repo => "puppetlabs/puppetlabs-stdlib"
+github "ruby",        "8.5.6"
+github "stdlib",      "4.12.0", :repo => "puppetlabs/puppetlabs-stdlib"
 github "sudo",        "1.0.0"
 github "xquartz",     "1.2.1"
 
